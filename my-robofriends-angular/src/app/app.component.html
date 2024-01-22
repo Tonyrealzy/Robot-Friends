@@ -1,0 +1,18 @@
+<div class="tc">
+  <h1>RobotFriends</h1>
+  <div className="pa2">
+    <input
+      type="search"
+      class="pa3 ba b--green bg-lightest-blue"
+      placeholder="search robots"
+    />
+  </div>
+  <div class="scroll">
+      @for (robot of robots; track $index) {
+        <!-- Custom event -->
+          <robot-card [robot]="robot" [isEven]="$even"/>
+      }
+    </div>
+</div>
+
+<router-outlet></router-outlet>
