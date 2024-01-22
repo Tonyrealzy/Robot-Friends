@@ -18,6 +18,8 @@ export class AppComponent {
   title = 'my-first-project';
   robots: IRobot[] = [];
 
+  //Create an event when you click on IRobot and console.log it...
+
   searchTerm: string = '';
 
   constructor() {
