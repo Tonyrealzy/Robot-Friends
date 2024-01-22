@@ -33,7 +33,7 @@ export class CardComponent {
 
 
   onRobotClicked() {
-    console.log('onRobotClicked', this.robot?.id);
+    //console.log('onRobotClicked', this.robot?.id);
   }
 
   applyEvenStyle() {
